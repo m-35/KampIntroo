@@ -19,6 +19,7 @@ namespace GenericsIntro
             //tempArray == geçici dizi
             T[] tempArray = items;
             items = new T[items.Length+1]; //dizinin eleman sayısını verir.
+            //Geçici diziye verdiğim elemanları bana geri vermesi için yazdırdığım kod.
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
